@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/larkko/js-randomization-utils/issues"
   },
-  "homepage": "https://github.com/larkko/js-randomization-utils#readme"
+  "homepage": "https://github.com/larkko/js-randomization-utils#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }
