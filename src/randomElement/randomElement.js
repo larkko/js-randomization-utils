@@ -1,9 +1,11 @@
+const defaultRandomIndex = require('../defaultRandomIndex');
+
 /*Chooses a random element from the given array*/
-function randomElement(arr) {
-  if (arr.length === 0) {
+function randomElement(array, randomIndex = defaultRandomIndex) {
+  if (array.length === 0) {
     return undefined;
   } else {
-    return arr[0];
+    return array[randomIndex(array)];
   }
 }
 
